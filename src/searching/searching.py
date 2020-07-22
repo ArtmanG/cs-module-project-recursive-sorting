@@ -2,10 +2,8 @@
 def binary_search(arr, target, start, end):
     # Your code here
     # ok so the problem is that we want to recursively make this function, call the function within itself
-    
-    
-    # base case
     # so any case pretty much starts this as long as the section of the array has a start and end point, even if they are the same, only if the start is somehow higher than the end does it stop.
+    # base case
     while end >= start:
         # mid point set up
         mid = (start + end) // 2
